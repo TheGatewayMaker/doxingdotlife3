@@ -47,7 +47,7 @@ const getBucketName = (): string => {
   return bucketName;
 };
 
-const getMediaUrl = (key: string): string => {
+export const getMediaUrl = (key: string): string => {
   const endpoint = process.env.R2_ENDPOINT;
   const bucketName = getBucketName();
 
