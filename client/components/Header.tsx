@@ -57,14 +57,6 @@ export default function Header() {
               <Home className="w-5 h-5" />
               Home
             </Link>
-            <Link
-              to="/uppostpanel"
-              onClick={() => setIsMenuOpen(false)}
-              className="flex items-center gap-3 w-full px-4 py-3 text-foreground font-semibold hover:bg-muted rounded-lg transition-colors"
-            >
-              <Upload className="w-5 h-5" />
-              Upload Post
-            </Link>
           </nav>
         )}
       </div>
